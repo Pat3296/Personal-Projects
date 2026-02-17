@@ -1,0 +1,41 @@
+Year,Access Method,Remoteness Area,Value
+2019-20,Video,Major Cities,2.2
+2020-21,Video,Major Cities,4.4
+2021-22,Video,Major Cities,6.2
+2022-23,Video,Major Cities,6.4
+2019-20,Video,Inner Regional,4.5
+2020-21,Video,Inner Regional,6.5
+2021-22,Video,Inner Regional,7.2
+2022-23,Video,Inner Regional,7.8
+2019-20,Video,Outer Regional,4.6
+2020-21,Video,Outer Regional,6.2
+2021-22,Video,Outer Regional,6.5
+2022-23,Video,Outer Regional,7.2
+2019-20,Video,Remote,3.8
+2020-21,Video,Remote,4.6
+2021-22,Video,Remote,4.7
+2022-23,Video,Remote,5.8
+2019-20,Video,Very Remote,3.2
+2020-21,Video,Very Remote,3.5
+2021-22,Video,Very Remote,3.5
+2022-23,Video,Very Remote,4.3
+2019-20,Teleconference,Major Cities,7.1
+2020-21,Teleconference,Major Cities,14.7
+2021-22,Teleconference,Major Cities,16.7
+2022-23,Teleconference,Major Cities,6.5
+2019-20,Teleconference,Inner Regional,6.2
+2020-21,Teleconference,Inner Regional,12.2
+2021-22,Teleconference,Inner Regional,13.2
+2022-23,Teleconference,Inner Regional,6.5
+2019-20,Teleconference,Outer Regional,4.4
+2020-21,Teleconference,Outer Regional,8.3
+2021-22,Teleconference,Outer Regional,9.7
+2022-23,Teleconference,Outer Regional,5.1
+2019-20,Teleconference,Remote,3.2
+2020-21,Teleconference,Remote,6.2
+2021-22,Teleconference,Remote,7.8
+2022-23,Teleconference,Remote,4.6
+2019-20,Teleconference,Very Remote,1.8
+2020-21,Teleconference,Very Remote,4.0
+2021-22,Teleconference,Very Remote,4.8
+2022-23,Teleconference,Very Remote,2.9

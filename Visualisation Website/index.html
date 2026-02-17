@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <title>Health at a Glance - OECD Data Visualisations</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- Load D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Health at a Glance - OECD Data Visualisations</h1>
+        <p>Interactive visualisations exploring OECD health and digital statistics</p>
+    </header>
+
+    <!-- Homepage -->
+    <section id="intro">
+        <p>
+            Explore health trends across OECD countries with our interactive visualisations. 
+            Our platform provides insights into telehealth consultations, digital infrastructure, 
+            and internet access in households, including remote areas of Australia.
+        </p>
+        <p>
+            This website is created by Pat and Brayden for COS30045 Data Visualisation. 
+            The data sources include OECD Health Statistics, OECD Digital Transformation reports, 
+            and Australian Institute of Health and Welfare.
+        </p>
+    </section>
+
+    <!-- Visualisation Sections -->
+
+   <!-- Vis 1 -->
+<section class="visualisation-section">
+    <h2 class="vis-title">Telehealth Consultations 2019–2024</h2>
+
+    <p class="vis-description">
+        Explore the trends for in person vs telehealth consultations across OECD countries between 2019 and 2024.
+        Use the dropdown menu to select a specific country and view how telehealth usage has changed over time.
+    </p>
+
+    <!-- Country dropdown -->
+    <label for="country-select"><strong>Select country:</strong></label>
+    <select id="country-select"></select>
+
+    <!-- D3 visualisation -->
+    <div id="vis1" class="visualisation-container"></div>
+</section>
+
+    <!-- Vis 2 -->
+<section class="visualisation-section">
+    <h2>National Digital Readiness for Healthcare</h2>
+    <div class="description">
+    Comparing internet accessibility across households to evaluate the foundation for 
+    telehealth adoption and equitable digital healthcare delivery.
+    </div>
+    <label for="year-select-vis2"><strong>Select year:</strong></label>
+    <select id="year-select-vis2"></select>
+
+    <div id="vis2" class="visualisation-container"></div>
+</section>
+
+<section class="visualisation-section">
+    <h2 class="vis-title">Australian Telehealth Utilization by State</h2>
+    <p class="vis-description">
+        Geographical distribution of Medicare-subsidized telehealth services. 
+        Select a year and item code to see service volumes across Australian states.
+    </p>
+
+    <div class="controls">
+        <div class="control-group">
+            <label for="year-select-vis3">Select Year:</label>
+            <select id="year-select-vis3"></select>
+        </div>
+        <div class="control-group">
+            <label for="item-select-vis3">Medicare Item:</label>
+            <select id="item-select-vis3"></select>
+        </div>
+    </div>
+
+    <div id="vis3" class="visualisation-container"></div>
+
+    <p class="vis-note">
+        *Note: Item 91891 (Level B) covers standard consultations, while 91801 and 91900 (Level C) 
+        cover longer consultations (20-39 minutes). Certain years or categories in this dataset may 
+        show no data or limited services due to changes in Medicare eligibility or reporting periods.
+    </p>
+    </section>
+
+    <!-- Vis 4 -->
+<section class="visualisation-section">
+        <h2 class="vis-title">Telehealth Access in Remote Australia</h2>
+        <p class="vis-description">
+            Investigate how telehealth services reach rural and remote communities in Australia. 
+            This visualization displays the rate of telehealth services for referred medical specialist attendances 
+            per 100 people, categorized by remoteness area from 2019–20 to 2022–23.
+        </p>
+
+        <div class="vis-controls">
+            <label for="method-select-vis4"><strong>Select Access Method:</strong></label>
+            <select id="method-select-vis4"></select>
+        </div>
+
+        <div id="vis4" class="visualisation-container"></div>
+
+        <p class="vis-note">
+            *Note: Rates are provided for both Video and Teleconference methods. Major Cities often show 
+            higher teleconference usage, while regional areas rely heavily on video-based specialist consultations.
+        </p>
+    </section>
+
+    <!-- Vis 5 -->
+<section class="visualisation-section">
+    <h2 class="vis-title">Health Data Sharing Intensity</h2>
+    <p class="vis-description">
+        Comparison of how national health data is shared with business, government,
+        and international stakeholders across OECD countries.
+    </p>
+
+    <div id="vis5" class="visualisation-container"></div>
+</section>
+
+<!-- Vis 6 -->
+<section class="visualisation-section">
+    <h2 class="vis-title">
+        Share of adults avoiding online platforms due to privacy concerns
+    </h2>
+    <p class="vis-description">
+        Percentage of adults aged 18 and over who avoid using certain websites, apps,
+        or social media because of privacy concerns, sorted by country, and age group.
+    </p>
+
+    <label for="age-select-vis6"><strong>Select age group:</strong></label>
+    <select id="age-select-vis6"></select>
+
+    <div id="vis6" class="visualisation-container"></div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created by Pat and Brayden | COS30045 Data Visualisation</p>
+    </footer>
+
+    <!-- Tooltip -->
+    <div id="tooltip" style="
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 8px;
+        font-size: 0.9em;
+        pointer-events: none;
+        opacity: 0;
+        z-index: 9999;
+        color: #000;
+        border-radius: 4px;
+    "></div>
+
+    <!-- D3 Scripts -->
+    <script src="script/vis1.js"></script>
+    <script src="script/vis2.js"></script>
+    <script src="script/vis3.js"></script>
+    <script src="script/vis4.js"></script>
+    <script src="script/vis5.js"></script>
+    <script src="script/vis6.js"></script>
+
+</body>
+</html>
