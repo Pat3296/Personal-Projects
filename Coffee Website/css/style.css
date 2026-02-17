@@ -1,0 +1,178 @@
+/* Global styles applied to the entire page */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling for site branding */
+header {
+  background-color: #4B3621; /* Dark brown background */
+  color: #fff; /* White text */
+  padding: 1em 2em;
+  text-align: center;
+}
+
+/* Main heading styles */
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #f1f1f1; /* Light grey background */
+  padding: 1em;
+  text-align: center;
+}
+
+/* Navigation links appearance */
+nav a {
+  margin: 0 1.5em;
+  text-decoration: none;
+  color: #4B3621; /* Dark brown text */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Navigation links hover effect */
+nav a:hover {
+  color: #a0522d; /* Sienna brown on hover */
+}
+
+/* Main content layout */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  gap: 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Section containers */
+section {
+  background-color: #fff; /* White background */
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Article headings */
+article h3 {
+  margin-top: 0;
+  color: #4B3621; /* Dark brown text */
+}
+
+/* Menu container with flexible layout */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+/* Individual menu item styling */
+.menu-item {
+  flex: 1 1 200px;
+  max-width: 250px;
+  text-align: center;
+  background-color: #fff; /* White background */
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+}
+
+/* Hidden */
+.hidden {
+  display: none;
+}
+
+/* Images inside menu items */
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.5em;
+}
+
+/* Aside section styling for customer reviews */
+aside {
+  max-width: 1200px;
+  margin: 2em auto;
+  background-color: #fff5eb; /* Light cream background */
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading inside aside */
+aside h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #a0522d; /* Sienna brown */
+}
+
+/* Container for reviews laid out in a row */
+.reviews-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5em;
+}
+
+/* Individual review blockquotes */
+.reviews-row blockquote {
+  background-color: white;
+  padding: 1em;
+  border-left: 4px solid #a0522d; /* Accent border */
+  font-style: italic;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 250px;
+  box-sizing: border-box;
+}
+
+/* Footer text inside reviews */
+.reviews-row footer {
+  text-align: right;
+  font-size: 0.9em;
+  color: #fff; /* White text */
+}
+
+/* Site footer styling */
+footer {
+  background-color: #4B3621; /* Dark brown background */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+/* Responsive layout adjustments for smaller screens */
+@media (max-width: 768px) {
+  /* Stack menu items vertically on narrow screens */
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Menu items width adjustment */
+  .menu-item {
+    max-width: 90%;
+  }
+
+  /* Aside section width adjustment */
+  aside {
+    max-width: 90%;
+  }
+
+  /* Navigation links stack vertically on smaller screens */
+  nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+}

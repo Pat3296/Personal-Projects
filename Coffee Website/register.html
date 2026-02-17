@@ -1,0 +1,130 @@
+<!-- Registration Page for Hot Grind Coffee Roasters -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hot Grind Coffee Roasters - Registration</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Registration Page for Hot Grind Coffee Roasters" />
+  <meta name="keywords" content="Coffee, Roasters, Order, Grinder, Fresh, Pourover, Specialty Coffee" />
+  <meta name="author" content="Patrick Caldwell" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <!-- Consistent header for site branding -->
+  <header>
+    <h1>Hot Grind Coffee Roasters</h1>
+  </header>
+
+  <!-- Navigation menu linking main pages -->
+  <nav> 
+    <a class="nav-link" href="index.html">Home Page</a>
+    <a class="nav-link" href="register.html">Register with Us</a>
+    <a class="nav-link" href="order.html">Order Page</a>
+    <a class="nav-link" href="features.html">Features</a>
+  </nav>
+
+  <main>
+    <!-- Registration section with information -->
+    <section>
+      <article>
+        <h3>Register with Us!</h3>
+        <p>
+          Join our community of specialty coffee lovers and experience the difference of freshly roasted, specialty grade beans.
+          By registering, you will get early access to our exclusive roasts, insider updates, and member-only perks (such as discounts in your birthday month!).
+          <br />
+          Whether you are a seasoned barista or just starting your coffee journey, we are here to provide you with the fuel for your passion – one perfect cup at a time.
+        </p>
+      </article>
+
+      <!-- Registration form -->
+      <form id="regform" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/formtest.php">
+        <fieldset>
+          <legend>Register</legend>
+
+          <!-- Name input -->
+          <div class="textinput">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" />
+          </div>
+
+          <!-- Email input -->
+          <div class="textinput">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email" />
+          </div>
+
+          <!-- Password input (required) -->
+          <div class="textinput">
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" required />
+          </div>
+
+          <!-- Postcode input (required) -->
+          <div class="textinput">
+            <label for="postcode">Postcode</label>
+            <input id="postcode" type="text" name="postcode" required />
+          </div>
+
+          <!-- Gender radio buttons -->
+          <div class="radioinput">
+            <label>Gender</label>
+            <input id="genm" type="radio" name="gender" value="M" />
+            <label for="genm">Male</label>
+            <input id="genf" type="radio" name="gender" value="F" />
+            <label for="genf">Female</label>
+            <input id="geno" type="radio" name="gender" value="O" />
+            <label for="geno">Other</label>
+          </div>
+
+          <!-- Favourite store item input -->
+          <div class="textinput">
+            <label for="favourite">Favourite Item from our Store</label>
+            <input id="favourite" type="text" name="favourite" />
+          </div>
+
+          <!-- Preferred brewing methods checkboxes -->
+          <div class="checkboxinput">
+            <label>Preferred Brewing Methods</label>
+
+            <input id="brew-pourover" type="checkbox" name="brew_method" value="Pourover" />
+            <label for="brew-pourover">Pourover</label>
+
+            <input id="brew-filter" type="checkbox" name="brew_method" value="Filter" />
+            <label for="brew-filter">Filter</label>
+
+            <input id="brew-espresso" type="checkbox" name="brew_method" value="Espresso" />
+            <label for="brew-espresso">Espresso</label>
+
+            <input id="brew-pod" type="checkbox" name="brew_method" value="Pod Machine" />
+            <label for="brew-pod">Pod Machine</label>
+          </div>
+
+          <!-- Preferred location dropdown -->
+          <div class="textinput">
+            <label for="location">Preferred Location</label>
+            <select id="location" name="location">
+              <option value="melbourne">Melbourne CBD</option>
+              <option value="fitzroy">Fitzroy</option>
+              <option value="richmond">Richmond</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <!-- Submit button -->
+        <div class="buttoninput">
+          <input type="submit" value="Register with Us" />
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer with business address -->
+  <footer>
+    Hot Grind Coffee Roasters - 124 La Trobe Street, Melbourne, Victoria
+  </footer>
+</body>
+
+</html>

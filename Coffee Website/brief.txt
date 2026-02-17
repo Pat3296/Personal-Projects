@@ -1,0 +1,106 @@
+Hot Grind Coffee Roasters (HGCR)
+Cool and hip new cafe and coffee Roasters
+just opened
+
+cafe is going well, but they want an online sales component
+to their business. This is where we come in
+
+BRIEF: HGCRs owners are interested in 
+developing a website that allows users to register
+and place orders for coffee beans
+(maybe subscription if you have time tbh)
+
+3 page website, HTMl / CSS etc. 
+Home, registration, order 
+
+
+
+1.2 Website structure
+
+Choose your own web page structure. A fully functional navigator must be provided on each web page. Users should be able to access all three web pages using the navigator.
+
+1.3 Website layout
+You need to design an appropriate webpage layout for your chosen company. The following HTML5 structural elements must be used:
+
+    <header> 
+    <nav> Done 
+    <main> Done 
+    <footer>
+    <aside>
+    <article>
+    <section>
+
+You are free to use other structural elements, e.g. <div>.
+
+ask 2: Website development
+2.1 HTML 5 web pages
+
+The three web pages must be developed usi ng HTML5. All pages must not contain any deprecated elements/attributes.
+
+The content requirements for each web page are as follows:
+
+    Page index.html is the home page of the website. It should provide introductory information about your chosen business, its history, menu/items to purchase, location, available types of food/items, etc. Feel free to refer to real-world store websites for examples. Information about at least three types of food/items to purchas must be provided, with at least three original or explicitly referenced images.
+    Page registration.html is for users to register. A form must be provided, which contains different input elements that allow users to enter registration information, e.g. username, password, gender, email, favourite item from the store, and address. The following input elements must be used: 
+        label
+        text box
+        password
+        radio button
+        checkbox
+        select list
+        submit button.
+    Page order.html is for users to place orders. A form must be provided to allow users to enter the following data to place an order:
+        Delivery or pick-up.
+        Delivery address (only if delivery is selected).
+        Billing address.
+        Contact number.
+        Email for receipt.
+        Pay on pick-up or online.
+        Credit card information (only if 'pay online' is selected).
+
+Choose the right types of input elements for different required information in the forms, e.g. a text box for username and a group of checkboxes for favourite pizzas. Other input elements can be used in your forms if necessary and appropriate for the content. Set the method attribute of the form to POST and the attribute action to: http://mercury.swin.edu.au/it000000/cos10005/regtest.php
+
+Note: All web pages must be fully validated.
+2.2 CSS files
+
+At least one CSS file is to be created to style all three HTML pages. Use any CSS properties you deem necessary and appropriate for the presentation. You are encouraged to be creative in your design.
+
+Your will mark not only on the use of CSS properties and selectors but also on how professional, beautiful and creative your web pages look.
+2.3 JavaScript file
+
+A JavaScript file must be created for the registration and the order pages to validate the input data before forms are submitted to the server for processing.
+
+The JavaScript must
+
+    check that none of the required input fields are blank
+    check that the password is at least 9-character long
+    check that the postcode is 4-digit
+    show an alert or inline error messages to display all the errors in the input fields
+    allow the form to be submitted only if all the input data are valid
+
+A menu must be created on each web page that allows users to navigate through all the web pages on your website. This menu must be properly styled using CSS.
+Task 3: Accessibility
+
+It is necessary that you design your web pages considering accessibility rules, as reflected in the marking guide for the assignment. You must submit the screenshots of WAVE’s accessibility checker to Canvas.
+
+Implement the following to make your website accessible:
+
+    Each page must have a skip link.
+    You need to provide alternative text for each image on your web page.
+    You need to run accessibility check WAVE which is a free browser extension to check your webpages and see how they perform and provide screenshot evidence.
+    Make sure use suitable colours with enough contrast, avoid green and red colour combination.
+
+Please ensure that you review Accessibility In Microsoft Office and webpages (PDF 782 KB)
+
+Download Accessibility In Microsoft Office and webpages (PDF 782 KB) for details on accessibility requirements for this assignment.
+Task 4: Website Enhancement
+4.1 Features
+
+Implement the following three features using appropriate HTML, CSS and JavaScript:
+
+    Highlight the menu item in the navigator corresponding to the current web page.
+    In page order.html, create a checkbox with the label 'same as delivery address' somewhere appropriate near the fields for billing address. When this checkbox is checked, the fields for billing address will be filled with the delivery address automatically. If the delivery address is not completed when this checkbox is checked, display an alert or inline message: 'Please enter your delivery address first'.
+    Allow users to choose from three types of credit card: Visa, Mastercard and American Express. Based on the type of credit card, limit the length of the credit card number: 16 digits for Visa and Mastercard, 15 digits for American Express.
+
+4.2 Features page
+
+Create a fourth page named features.html and incorporate it into the navigator. On this web page, list the features that you have implemented, and provide hyperlinks to indicate where those features are implemented.

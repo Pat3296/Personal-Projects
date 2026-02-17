@@ -1,0 +1,137 @@
+<!-- Order Page for Hot Grind Coffee Roasters -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hot Grind Coffee Roasters - Order Page</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Order Page for Hot Grind Coffee Roasters" />
+  <meta name="keywords" content="Coffee, Roasters, Order, Grinder, Fresh, Pourover, Specialty Coffee" />
+  <meta name="author" content="Patrick Caldwell" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Hot Grind Coffee Roasters</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a class="nav-link" href="index.html">Home Page</a>
+    <a class="nav-link" href="register.html">Register with Us</a>
+    <a class="nav-link" href="order.html">Order Page</a>
+    <a class="nav-link" href="features.html">Features</a>
+  </nav>
+
+  <main>
+    <section>
+      <article>
+        <h3>Place Your Order</h3>
+        <p>
+          Thank you for choosing our specialty coffee! Please fill out the form below to place your order. We offer both delivery and pick-up options.
+          You can pay online or on pick-up—whichever suits you best.
+        </p>
+      </article>
+
+      <!-- Order Form -->
+      <form action="http://mercury.swin.edu.au/it000000/cos10005/regtest.php" method="post">
+
+        <!-- Unified fieldset for all main inputs -->
+        <fieldset>
+          <legend>Place Your Order</legend>
+
+          <!-- Order type -->
+          <div class="radioinput">
+            <label>Order Type</label>
+            <input type="radio" id="pickup" name="order_type" value="Pickup" required />
+            <label for="pickup">Pick-up</label>
+            <input type="radio" id="delivery" name="order_type" value="Delivery" />
+            <label for="delivery">Delivery</label>
+          </div>
+
+          <!-- Delivery address -->
+          <div class="textinput hidden" id="deliveryAddressGroup">
+            <label for="delivery_address">Delivery Address</label>
+            <textarea id="delivery_address" name="delivery_address" rows="3"></textarea>
+          </div>
+
+          <!-- Billing address -->
+          <div class="textinput">
+            <label for="billing_address">Billing Address</label>
+            <textarea id="billing_address" name="billing_address" rows="3" required></textarea>
+          </div>
+
+          <!-- Checkbox to copy -->
+          <div class="checkboxinput">
+            <input type="checkbox" id="sameAsDelivery" />
+            <label for="sameAsDelivery">Same as delivery address</label>
+            <p id="delivery-warning" style="color:red; display:none;">Please enter your delivery address first</p>
+          </div>
+
+          <!-- Contact number -->
+          <div class="textinput">
+            <label for="contact_number">Contact Number</label>
+            <input type="tel" id="contact_number" name="contact_number" required />
+          </div>
+
+          <!-- Email -->
+          <div class="textinput">
+            <label for="email">Email for Receipt</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <!-- Order -->
+          <div class="textinput">
+            <label for="order">What would you like to order?</label>
+            <input type="text" id="order" name="order" required />
+          </div>
+        </fieldset>
+
+        <!-- Payment method fieldset kept separate -->
+        <fieldset>
+          <legend>Payment Method</legend>
+          <div class="radioinput">
+            <input type="radio" id="pay-pickup" name="payment_method" value="Pay on pick-up" required />
+            <label for="pay-pickup">Pay on Pick-up</label>
+            <input type="radio" id="pay-online" name="payment_method" value="Pay online" />
+            <label for="pay-online">Pay Online</label>
+          </div>
+        </fieldset>
+
+        <!-- Credit card details, shown only if Pay Online is selected -->
+        <div class="form-group hidden" id="cardDetailsGroup">
+          <label for="card_type">Card Type</label>
+          <select id="card_type" name="card_type">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="amex">American Express</option>
+          </select>
+
+          <label for="card_number">Credit Card Number</label>
+          <input type="text" id="card_number" name="card_number" maxlength="16" />
+
+          <label for="card_expiry">Expiry Date</label>
+          <input type="text" id="card_expiry" name="card_expiry" placeholder="MM/YY" />
+
+          <label for="card_cvc">CVC</label>
+          <input type="text" id="card_cvc" name="card_cvc" maxlength="4" />
+        </div>
+
+        <!-- Submit button -->
+        <div class="buttoninput">
+          <button type="submit">Submit Order</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    Hot Grind Coffee Roasters - 124 La Trobe Street, Melbourne, Victoria
+  </footer>
+</body>
+
+</html>
