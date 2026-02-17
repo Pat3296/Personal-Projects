@@ -1,0 +1,101 @@
+4
+Brat
+Charli XCX
+images/brat.jpg
+15
+360
+music/360.mp3
+Club Classics
+music/Clubclassics.mp3
+Sympathy is a Knife
+music/SIAK.mp3
+I might say something stupid
+music/I might say something stupid.mp3
+Talk talk
+music/Talk talk.mp3
+Von Dutch
+music/Von dutch.mp3
+Everything is romantic
+music/Everything is romantic.mp3
+Rewind
+music/Rewind.mp3
+So I
+music/So I.mp3
+Girl, so Confusing
+music/Girl, so confusing.mp3
+Apple
+music/Apple.mp3
+B2b
+music/12. B2b.mp3
+Mean Girls
+music/13. Mean girls.mp3
+I Think About it All the Time
+music/14. I think about it all the time.mp3
+365
+music/15. 365.mp3
+Flying Beagle
+Himiko Kikuchi
+images/cover.jpg
+8
+Look Your Back!
+music/1 - Look Your Back!.mp3
+A Seagull & Clouds
+music/Seagull & Clouds.mp3
+Flying Beagle 
+music/3 - Flying Beagle.mp3
+Fluffy
+music/Fluffy.mp3
+Sand Storm
+music/Sand Storm.mp3
+Baby Talk
+music/Baby Talk.mp3
+The Second Summer 
+music/The Second Summer.mp3
+Ducky Ducky
+music/Ducky Ducky.mp3
+Fishing for Fishies
+King Gizzard and the Lizard Wizard
+images/fishing.jpg
+9
+Fishing for Fishies
+music/01. Fishing for Fishies.mp3
+Boogieman Sam 
+music/02. Boogieman Sam.mp3
+The Bird Song
+music/03. The Bird Song.mp3
+Plastic Boogie
+music/04. Plastic Boogie.mp3
+The Cruel Millenial
+music/05. The Cruel Millennial.mp3
+Reals not Real
+music/06. Real's Not Real.mp3
+This Thing
+music/07. This Thing.mp3
+Acarine
+music/08. Acarine.mp3
+Cyboogie
+music/09. Cyboogie.mp3
+Pure Heroine
+Lorde
+images/lorde.jpg
+10
+Tennis Court
+music/01. Tennis Court.mp3
+400 Lux
+music/02. 400 Lux.mp3
+Royals
+music/03. Royals.mp3
+Ribs
+music/04. Ribs.mp3
+Buzzcut Season
+music/05. Buzzcut Season.mp3
+Team
+music/06. Team.mp3
+Glory and Gore
+music/07. Glory and Gore.mp3
+Still Sane
+music/08. Still Sane.mp3
+White Teeth Teens
+music/09. White Teeth Teens.mp3
+A World Alone
+music/10. A World Alone.mp3

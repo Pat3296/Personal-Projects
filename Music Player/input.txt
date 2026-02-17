@@ -1,0 +1,33 @@
+4
+Greatest Hits
+Neil Diamond
+images/ND.png
+3
+Crackling Rose
+test.mp3
+Soolaimon
+sounds/06-Soolaimon.wav
+Sweet Caroline
+sounds/20-Sweet_Caroline.wav
+Greatest Hits
+Platters
+images/Platters.png
+2
+Twilight Time
+sounds/01-Twilight_Time.wav
+The Great Pretender
+sounds/10-The_Great_Pretender.wav
+American Pie
+Don McClean
+images/DM.png
+0
+No Secrets
+Carly Simon
+images/CS.png
+3
+The Carter Family
+sounds/02-The_Carter_Family.wav
+Your So Vain
+sounds/03-Youre_So_Vain.wav
+Embrace me You Child
+sounds/06-Embrace_Me_You_Child.wav
